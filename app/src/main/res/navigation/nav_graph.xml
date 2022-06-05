@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/home_screen">
+
+    <fragment
+        android:id="@+id/home_screen"
+        android:name="com.example.mydiary.home_screen"
+        android:label="fragment_home_screen"
+        tools:layout="@layout/fragment_home_screen" >
+        <action
+            android:id="@+id/action_home_screen_to_diary_entry"
+            app:destination="@id/diary_entry" />
+    </fragment>
+    <fragment
+        android:id="@+id/diary_entry"
+        android:name="com.example.mydiary.diary_entry"
+        android:label="fragment_diary_entry"
+        tools:layout="@layout/fragment_diary_entry" >
+        <action
+            android:id="@+id/action_diary_entry_to_home_screen"
+            app:destination="@id/home_screen" />
+    </fragment>
+</navigation>
