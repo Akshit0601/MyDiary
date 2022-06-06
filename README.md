@@ -14,5 +14,5 @@ Things I have included:
 
 Not able to print the line object text in TextView after it is uplaoaded/added to the database either there's problem with my Database scheme or some internal error while executing onBindViewHolder in ListAdapter
 
-everything's in master branch
+everything's in master branch and please evaluate my later submission
 
