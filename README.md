@@ -14,3 +14,5 @@ Things I have included:
 
 Tried to include room database to save entries but could'nt sync gradle files by adding room dependencies into my original gradle files,but have created a a database scheme(commented) and a mutablelist containing all the text(with line no. as index)
 
+everything's in master branch
+
