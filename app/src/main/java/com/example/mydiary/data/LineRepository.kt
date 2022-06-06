@@ -1,4 +1,4 @@
-/*package com.example.mydiary.data
+package com.example.mydiary.data
 
 import androidx.lifecycle.LiveData
 
@@ -9,4 +9,4 @@ class LineRepository(private val lineDao: LineDao){
         lineDao.addLine(line)
     }
 
-}*/
+}

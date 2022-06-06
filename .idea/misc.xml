@@ -12,6 +12,8 @@
         <entry key="app/src/main/res/layout/fragment_blank.xml" value="0.2151268115942029" />
         <entry key="app/src/main/res/layout/fragment_diary_entry.xml" value="0.2151268115942029" />
         <entry key="app/src/main/res/layout/fragment_home_screen.xml" value="0.2151268115942029" />
+        <entry key="app/src/main/res/layout/fragment_update.xml" value="0.18795289855072464" />
+        <entry key="app/src/main/res/layout/history_text.xml" value="0.1" />
         <entry key="app/src/main/res/layout/layout.xml" value="0.2046875" />
         <entry key="app/src/main/res/layout/main_menu.xml" value="0.2151268115942029" />
         <entry key="app/src/main/res/layout/text_entry.xml" value="0.2046875" />

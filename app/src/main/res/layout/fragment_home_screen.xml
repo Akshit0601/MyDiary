@@ -5,7 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".home_screen">
-
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view2"
+        android:layout_width="match_parent"
+        android:layout_height="607dp"
+        android:orientation="vertical"/>
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floatingActionButton"
         android:layout_width="wrap_content"
@@ -16,5 +20,7 @@
         android:focusable="auto"
         android:contentDescription="@string/add_entry"
         android:src="@android:drawable/ic_input_add" />
+
+
     <!--hint for the use when he hover the button -->
 </FrameLayout>
