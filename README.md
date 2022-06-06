@@ -12,7 +12,7 @@ Things I have included:
 4. used color tool for desiging the theme.xml(both dark and light)
 5. used binding instead of calling findViewByid()
 
-Tried to include room database to save entries but could'nt sync gradle files by adding room dependencies into my original gradle files,but have created a a database scheme(commented) and a mutablelist containing all the text(with line no. as index)
+Not able to print the line object text in TextView after it is uplaoaded/added to the database either there's problem with my Database scheme or some internal error while executing onBindViewHolder in ListAdapter
 
 everything's in master branch
 
